@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#9AFBC6"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Faridpur"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#9A9A9A"
+        android:layout_marginTop="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:src="@drawable/faridpur_map"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faridpur District is a district in south-central Bangladesh. It is a part of the Dhaka Division.[4] It is bounded by the Padma River to the northeast. The district was named for its headquarters Faridpur town, which itself was named for Farīd-ud-Dīn Masʿūd, a 13th-century Sufi saint. A separate district was created by severing Dhaka district in 1786 and was called Dacca Jelalpur. A municipality was established in 1869. Historically, the town was known as Fatehabad. It was also called Haveli Mahal Fatehabad.\n\nHistory\n\nThe town of Fatehabad was located by a stream known as the Dead Padma, which was 32 kilometres (20 mi) from the main channel of the Padma River. Sultan Jalaluddin Muhammad Shah established a mint in Fatehabad during his reign in the early 15th century. Fatehabad continued to be a mint town of the Bengal Sultanate until 1538. In Ain-i-Akbari, it was named as Haweli Mahal Fatehabad during the reign of Emperor Akbar in the Mughal Empire. The Portuguese cartographer João de Barros mentioned it as Fatiabas. The Dutch map of Van den Brouck described it as Fathur.\nIts first mention in Bengali literature was by Daulat Uzir Bahram Khan in his adaption of Layla and Majnun.[5] The medieval poet Alaol was born in Faridpur.\nFathabad was a strategically important base in south and southwestern Bengal. It was a well-developed urban centre. The town was home to important Mughal government officials, including generals, civil servants and jagirdars. During the reign of Emperor Jahangir in the 17th century, local zamindars Satrajit and Mukund resisted the Mughal government. By the 19th century, the town was renamed as Faridpur in honour of the Sufi saint Shah Fariduddin Masud, a follower of the Chishti order of Ajmer. Haji Shariatullah and Dudu Miyan led the conservative Faraizi movement in Faridpur during the early 19th century.\nThe Faridpur District was established by the British in 1786. The Faridpur Subdivision was a part of Dacca Division in the Bengal Presidency established by the East India Company. The municipality of Faridpur was established in 1869.[7] The subdivision covered modern day Faridpur, Rajbari, Madaripur, Shariatpur and Gopalganj districts (collectively known as Greater Faridpur). It was included in Eastern Bengal and Assam during the British Raj between 1905 and 1912.\nFaridpur was a rail terminus for the Bengal Provincial Railway and the Eastern Bengal Railway, connecting Calcutta with the important Goalanda ghats, from where ships travelled to Colonial Assam and British Burma. British Faridpur was the birthplace of several nationalist leaders of the subcontinent, including Ambica Charan Mazumdar, Humayun Kabir, Maulvi Tamizuddin Khan, Sheikh Mujibur Rahman Syed Qumrul Islam Saleh Uddin,Syeda Sajeda Chowdhury and K.M.Obaidur Rahman.\nThe Doyen and sole pioneer of Progressive culture, literature and theatre of Bangladesh and teacher of Sheikh Mujibur Rahman at the Faculty of Law in Dhaka University ———Natyaguru Nurul Momen was born in Buraich of Alfadanga, now in Faridpur.\nThe acclaimed American engineer Fazlur Rahman Khan was born in the region.\nFaridpur saw intense fighting during the Bangladesh Liberation War in 1971. It was one of original 18 subdivisions of Bangladesh at the time of independence. In 1984, the devolution reforms of President Hussain Muhammad Ershad divided the old subdivision into five districts. In 2015, the Government of Bangladesh announced plans to establish Faridpur Division.\n\nPolitics and local government\n\nThe district has 9 upazilas, 6 municipalities, 36 wards, 100 mahallahs, 79 unions and 1,899 villages. The district has four parliamentary constituencies in the Jatiyo Sangshad. The Faridpur District Council is the highest tier of local government."
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
